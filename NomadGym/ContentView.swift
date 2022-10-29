@@ -8,14 +8,57 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection = ""
+    let custom = Color.hexColour(hexValue: 0xf3f4fb)
+    let textColor = Color.hexColour(hexValue: 0x19213F)
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            
+            ExploreHomeView()
+                .tabItem() {
+                    Image(systemName: "house")
+                    Text("Explore").foregroundColor(textColor)
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                        custom,
+                        for: .tabBar)
+            WorkoutView()
+                .tabItem() {
+                    Image(systemName: "dumbbell")
+                    Text("Workout").foregroundColor(textColor)
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                        custom,
+                        for: .tabBar)
+            VideoFeedView()
+                .tabItem() {
+                    Image(systemName: "play.circle")
+                    Text("Video feed")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                        custom,
+                        for: .tabBar)
+            
+            MoreNavigationView()
+                .tabItem() {
+                Image(systemName:"ellipsis")
+                Text("More")
+            }
+            .toolbar(.visible, for: .tabBar)
+            .toolbarBackground(
+                    custom,
+                    for: .tabBar)
+             
         }
-        .padding()
+        
+        .accentColor(.hexColour(hexValue: 0x94CCFE))
+        
+        
+             
+        
     }
 }
 

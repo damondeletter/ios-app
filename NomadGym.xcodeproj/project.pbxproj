@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8210319029098C1000B56CE3 /* ExploreHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210318F29098C1000B56CE3 /* ExploreHomeView.swift */; };
+		8210319229098C3100B56CE3 /* VideoFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210319129098C3100B56CE3 /* VideoFeedView.swift */; };
+		8210319429098E0000B56CE3 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210319329098E0000B56CE3 /* WorkoutView.swift */; };
 		82499124290929E000594FA3 /* NomadGymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82499123290929E000594FA3 /* NomadGymApp.swift */; };
 		82499126290929E000594FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82499125290929E000594FA3 /* ContentView.swift */; };
 		82499128290929E100594FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82499127290929E100594FA3 /* Assets.xcassets */; };
 		8249912B290929E100594FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8249912A290929E100594FA3 /* Preview Assets.xcassets */; };
+		826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826214A6290AD45000B67E90 /* HeaderComponent.swift */; };
+		826214AB290AD9EE00B67E90 /* Profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 826214AA290AD9EE00B67E90 /* Profile.jpeg */; };
+		82AC1885290A5D18001811B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC1884290A5D18001811B6 /* Extensions.swift */; };
+		82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC4732290BC26200EEA69B /* MoreNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8210318F29098C1000B56CE3 /* ExploreHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHomeView.swift; sourceTree = "<group>"; };
+		8210319129098C3100B56CE3 /* VideoFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedView.swift; sourceTree = "<group>"; };
+		8210319329098E0000B56CE3 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		82499120290929E000594FA3 /* NomadGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomadGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82499123290929E000594FA3 /* NomadGymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadGymApp.swift; sourceTree = "<group>"; };
 		82499125290929E000594FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82499127290929E100594FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8249912A290929E100594FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		826214A6290AD45000B67E90 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		826214AA290AD9EE00B67E90 /* Profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Profile.jpeg; path = ../../../../../../../../../Downloads/Profile.jpeg; sourceTree = "<group>"; };
+		826214AC290ADA3C00B67E90 /* Profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profile.jpeg; sourceTree = "<group>"; };
+		82AC1884290A5D18001811B6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		82AC4732290BC26200EEA69B /* MoreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8210316D29098A0100B56CE3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				826214A6290AD45000B67E90 /* HeaderComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8210316E29098A9000B56CE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8210318F29098C1000B56CE3 /* ExploreHomeView.swift */,
+				8210319129098C3100B56CE3 /* VideoFeedView.swift */,
+				8210319329098E0000B56CE3 /* WorkoutView.swift */,
+				82AC4732290BC26200EEA69B /* MoreNavigationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		82499117290929E000594FA3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +85,14 @@
 		82499122290929E000594FA3 /* NomadGym */ = {
 			isa = PBXGroup;
 			children = (
+				826214A8290AD9A000B67E90 /* Assets */,
+				82AC1883290A5D01001811B6 /* Extensions */,
+				8210316E29098A9000B56CE3 /* Views */,
+				8210316D29098A0100B56CE3 /* Components */,
 				82499123290929E000594FA3 /* NomadGymApp.swift */,
 				82499125290929E000594FA3 /* ContentView.swift */,
 				82499127290929E100594FA3 /* Assets.xcassets */,
+				826214AC290ADA3C00B67E90 /* Profile.jpeg */,
 				82499129290929E100594FA3 /* Preview Content */,
 			);
 			path = NomadGym;
@@ -65,6 +104,30 @@
 				8249912A290929E100594FA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		826214A8290AD9A000B67E90 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				826214A9290AD9A600B67E90 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		826214A9290AD9A600B67E90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				826214AA290AD9EE00B67E90 /* Profile.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		82AC1883290A5D01001811B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82AC1884290A5D18001811B6 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +190,7 @@
 			files = (
 				8249912B290929E100594FA3 /* Preview Assets.xcassets in Resources */,
 				82499128290929E100594FA3 /* Assets.xcassets in Resources */,
+				826214AB290AD9EE00B67E90 /* Profile.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8210319229098C3100B56CE3 /* VideoFeedView.swift in Sources */,
+				82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */,
+				82AC1885290A5D18001811B6 /* Extensions.swift in Sources */,
+				826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */,
 				82499126290929E000594FA3 /* ContentView.swift in Sources */,
+				8210319029098C1000B56CE3 /* ExploreHomeView.swift in Sources */,
 				82499124290929E000594FA3 /* NomadGymApp.swift in Sources */,
+				8210319429098E0000B56CE3 /* WorkoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
