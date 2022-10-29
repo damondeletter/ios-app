@@ -58,7 +58,8 @@ struct ContentView: View {
         
         
              
-        
+        /* more bestaat uit: settings, forum page voor te zeggen
+         hoe druk,.., contact page voor email?*/
     }
 }
 

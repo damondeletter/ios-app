@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ExploreHomeView: View {
     var body: some View {
-        HeaderComponent()
+        HeaderComponent(title: "Explore")
     }
 }
 

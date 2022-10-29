@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VideoFeedView: View {
     var body: some View {
-        HeaderComponent()
+        HeaderComponent(title: "Video feed")
     }
 }
 

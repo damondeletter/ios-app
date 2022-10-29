@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct HeaderComponent: View {
-    
+    @State var textColor = Color.hexColour(hexValue: 0x19213F)
+    var title: String
     var body: some View {
         HStack {
-            Title()
+            Text(title)
+                .font(.system(size: 40).weight(.bold))
+                .padding(.leading, 30)
+                .foregroundColor(textColor)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                
             Spacer()
             Button {
                 print("test")
@@ -24,19 +30,6 @@ struct HeaderComponent: View {
         .frame(maxHeight: .infinity, alignment: .top)
         
         
-    }
-}
-
-struct Title : View {
-    @State var textColor = Color.hexColour(hexValue: 0x19213F)
-    let title = "Explore"
-    var body : some View {
-            Text(title)
-                .font(.system(size: 40).weight(.bold))
-                .padding(.leading, 30)
-                .foregroundColor(textColor)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                
     }
 }
 
@@ -63,6 +56,6 @@ struct Profile : View {
 
 struct HeaderComponent_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderComponent()
+        HeaderComponent(title: "Title")
     }
 }

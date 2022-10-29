@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MoreNavigationView: View {
     var body: some View {
-        HeaderComponent()
+        HeaderComponent(title: "More")
        
     }
 }
