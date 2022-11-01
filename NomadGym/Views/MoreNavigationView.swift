@@ -9,10 +9,14 @@ import SwiftUI
 
 struct MoreNavigationView: View {
     var body: some View {
-        HeaderComponent(title: "More")
-       
+        VStack {
+            HeaderComponent(title: "More")
+            Text("Test").frame(maxWidth:.infinity, alignment: .leading).padding(20)
+        }
     }
 }
+
+
 
 struct MoreNavigationView_Previews: PreviewProvider {
     static var previews: some View {

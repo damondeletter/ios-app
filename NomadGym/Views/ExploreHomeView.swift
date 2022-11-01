@@ -9,7 +9,20 @@ import SwiftUI
 
 struct ExploreHomeView: View {
     var body: some View {
-        HeaderComponent(title: "Explore")
+        ScrollView {
+            content
+        }
+    }
+    var content : some View {
+        VStack(alignment: .leading, spacing: 0) {
+            HeaderComponent(title: "Explore")
+            VStack {
+                ExploreHorizontalCard().padding(15)
+
+            }
+           
+            Spacer()
+        }
     }
 }
 

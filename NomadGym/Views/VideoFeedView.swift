@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct VideoFeedView: View {
     var body: some View {
         HeaderComponent(title: "Video feed")
     }
 }
+
+
 
 struct VideoFeedView_Previews: PreviewProvider {
     static var previews: some View {

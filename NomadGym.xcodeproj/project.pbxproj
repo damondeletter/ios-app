@@ -14,10 +14,18 @@
 		82499126290929E000594FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82499125290929E000594FA3 /* ContentView.swift */; };
 		82499128290929E100594FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82499127290929E100594FA3 /* Assets.xcassets */; };
 		8249912B290929E100594FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8249912A290929E100594FA3 /* Preview Assets.xcassets */; };
+		8256071E29101069000098CA /* ExploreHorizontalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8256071D29101069000098CA /* ExploreHorizontalCard.swift */; };
 		826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826214A6290AD45000B67E90 /* HeaderComponent.swift */; };
 		826214AB290AD9EE00B67E90 /* Profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 826214AA290AD9EE00B67E90 /* Profile.jpeg */; };
 		82AC1885290A5D18001811B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC1884290A5D18001811B6 /* Extensions.swift */; };
 		82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC4732290BC26200EEA69B /* MoreNavigationView.swift */; };
+		82D70584291116FF009BAF91 /* SidebarRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D70583291116FF009BAF91 /* SidebarRight.swift */; };
+		82D70587291119F2009BAF91 /* BottomNavigationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D70586291119F2009BAF91 /* BottomNavigationComponent.swift */; };
+		82D7058A29115F1F009BAF91 /* ExploreVerticalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D7058929115F1F009BAF91 /* ExploreVerticalCard.swift */; };
+		82D7058C29115F61009BAF91 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D7058B29115F61009BAF91 /* Video.swift */; };
+		82D7058E29116049009BAF91 /* cbum.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D7058D29116049009BAF91 /* cbum.png */; };
+		82D70590291174FC009BAF91 /* Cbum_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D7058F291174FC009BAF91 /* Cbum_thumb.png */; };
+		82D7059229117577009BAF91 /* try.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82D7059129117577009BAF91 /* try.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +37,18 @@
 		82499125290929E000594FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82499127290929E100594FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8249912A290929E100594FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8256071D29101069000098CA /* ExploreHorizontalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHorizontalCard.swift; sourceTree = "<group>"; };
 		826214A6290AD45000B67E90 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		826214AA290AD9EE00B67E90 /* Profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Profile.jpeg; path = ../../../../../../../../../Downloads/Profile.jpeg; sourceTree = "<group>"; };
-		826214AC290ADA3C00B67E90 /* Profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profile.jpeg; sourceTree = "<group>"; };
 		82AC1884290A5D18001811B6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		82AC4732290BC26200EEA69B /* MoreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNavigationView.swift; sourceTree = "<group>"; };
+		82D70583291116FF009BAF91 /* SidebarRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarRight.swift; sourceTree = "<group>"; };
+		82D70586291119F2009BAF91 /* BottomNavigationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationComponent.swift; sourceTree = "<group>"; };
+		82D7058929115F1F009BAF91 /* ExploreVerticalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVerticalCard.swift; sourceTree = "<group>"; };
+		82D7058B29115F61009BAF91 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		82D7058D29116049009BAF91 /* cbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cbum.png; path = ../../../../../../../../../Documents/cbum.png; sourceTree = "<group>"; };
+		82D7058F291174FC009BAF91 /* Cbum_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cbum_thumb.png; path = ../../../../../../../../../Documents/Cbum_thumb.png; sourceTree = "<group>"; };
+		82D7059129117577009BAF91 /* try.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = try.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +65,8 @@
 		8210316D29098A0100B56CE3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				82D7058829115EA0009BAF91 /* Explore */,
+				82D70582291116E7009BAF91 /* Navigation */,
 				826214A6290AD45000B67E90 /* HeaderComponent.swift */,
 			);
 			path = Components;
@@ -64,6 +81,13 @@
 				82AC4732290BC26200EEA69B /* MoreNavigationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		822DB4AE290D7E2000897F9E /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spotify;
 			sourceTree = "<group>";
 		};
 		82499117290929E000594FA3 = {
@@ -85,6 +109,8 @@
 		82499122290929E000594FA3 /* NomadGym */ = {
 			isa = PBXGroup;
 			children = (
+				8256071F29102537000098CA /* Model */,
+				822DB4AE290D7E2000897F9E /* Spotify */,
 				826214A8290AD9A000B67E90 /* Assets */,
 				82AC1883290A5D01001811B6 /* Extensions */,
 				8210316E29098A9000B56CE3 /* Views */,
@@ -92,7 +118,6 @@
 				82499123290929E000594FA3 /* NomadGymApp.swift */,
 				82499125290929E000594FA3 /* ContentView.swift */,
 				82499127290929E100594FA3 /* Assets.xcassets */,
-				826214AC290ADA3C00B67E90 /* Profile.jpeg */,
 				82499129290929E100594FA3 /* Preview Content */,
 			);
 			path = NomadGym;
@@ -106,6 +131,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8256071F29102537000098CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82D7058B29115F61009BAF91 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		826214A8290AD9A000B67E90 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +150,9 @@
 		826214A9290AD9A600B67E90 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				82D7059129117577009BAF91 /* try.jpeg */,
+				82D7058F291174FC009BAF91 /* Cbum_thumb.png */,
+				82D7058D29116049009BAF91 /* cbum.png */,
 				826214AA290AD9EE00B67E90 /* Profile.jpeg */,
 			);
 			path = Images;
@@ -128,6 +164,24 @@
 				82AC1884290A5D18001811B6 /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82D70582291116E7009BAF91 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				82D70583291116FF009BAF91 /* SidebarRight.swift */,
+				82D70586291119F2009BAF91 /* BottomNavigationComponent.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		82D7058829115EA0009BAF91 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8256071D29101069000098CA /* ExploreHorizontalCard.swift */,
+				82D7058929115F1F009BAF91 /* ExploreVerticalCard.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 82499117290929E000594FA3;
+			packageReferences = (
+				82D7058529111861009BAF91 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 82499121290929E000594FA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D70590291174FC009BAF91 /* Cbum_thumb.png in Resources */,
 				8249912B290929E100594FA3 /* Preview Assets.xcassets in Resources */,
 				82499128290929E100594FA3 /* Assets.xcassets in Resources */,
+				82D7058E29116049009BAF91 /* cbum.png in Resources */,
 				826214AB290AD9EE00B67E90 /* Profile.jpeg in Resources */,
+				82D7059229117577009BAF91 /* try.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,10 +265,15 @@
 				82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */,
 				82AC1885290A5D18001811B6 /* Extensions.swift in Sources */,
 				826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */,
+				82D70587291119F2009BAF91 /* BottomNavigationComponent.swift in Sources */,
+				8256071E29101069000098CA /* ExploreHorizontalCard.swift in Sources */,
+				82D70584291116FF009BAF91 /* SidebarRight.swift in Sources */,
 				82499126290929E000594FA3 /* ContentView.swift in Sources */,
 				8210319029098C1000B56CE3 /* ExploreHomeView.swift in Sources */,
+				82D7058C29115F61009BAF91 /* Video.swift in Sources */,
 				82499124290929E000594FA3 /* NomadGymApp.swift in Sources */,
 				8210319429098E0000B56CE3 /* WorkoutView.swift in Sources */,
+				82D7058A29115F1F009BAF91 /* ExploreVerticalCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +474,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82D7058529111861009BAF91 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 82499118290929E000594FA3 /* Project object */;
 }

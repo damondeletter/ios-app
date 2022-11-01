@@ -56,6 +56,6 @@ struct Profile : View {
 
 struct HeaderComponent_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderComponent(title: "Title")
+        HeaderComponent(title: "Not impl.")
     }
 }
