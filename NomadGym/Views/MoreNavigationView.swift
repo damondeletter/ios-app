@@ -9,9 +9,14 @@ import SwiftUI
 
 struct MoreNavigationView: View {
     var body: some View {
-        VStack {
-            HeaderComponent(title: "More")
-            Text("Test").frame(maxWidth:.infinity, alignment: .leading).padding(20)
+        ZStack {
+            ScrollView {
+                VStack {
+                    HeaderComponent(title: "More")
+                    Text("Test").frame(maxWidth:.infinity, alignment: .leading).padding(20)
+                }
+            }
+            
         }
     }
 }

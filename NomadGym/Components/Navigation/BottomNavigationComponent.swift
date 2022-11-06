@@ -52,10 +52,6 @@ struct BottomNavigationComponent: View {
             .toolbarBackground(
                     custom,
                     for: .tabBar)
-            
-    
-            
-             
         }
         
         .accentColor(.hexColour(hexValue: 0x94CCFE))

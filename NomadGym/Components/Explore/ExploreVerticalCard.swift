@@ -25,6 +25,9 @@ struct ExploreVerticalCard: View {
                 .foregroundColor(.black)
                 .layoutPriority(1)
                 .multilineTextAlignment(.center)
+            
+        
+
         }
         .foregroundColor(.white)
                 .padding(30)
