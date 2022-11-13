@@ -31,3 +31,17 @@ NomadGym/Spotify/SpotifyiOS.framework/Versions/A/Headers/SPTAppRemoteArtist.h
 NomadGym/Spotify/SpotifyiOS.framework/Versions/A/Headers/SPTAppRemoteAlbum.h
 NomadGym/Spotify/SpotifyiOS.framework/Versions/A/Headers/SPTAppRemote.h
 NomadGym/Spotify/SpotifyiOS.framework/Versions/A/Headers/SpotifyiOS.h
+NomadGym.xcodeproj/project.pbxproj
+NomadGym/Assets.xcassets/aesthetic.imageset/aesthetic.jpeg
+NomadGym/Assets.xcassets/aesthetic.imageset/Contents.json
+NomadGym/Assets.xcassets/background.imageset/background.png
+NomadGym/Assets.xcassets/background.imageset/Contents.json
+NomadGym/Assets.xcassets/color.imageset/color.png
+NomadGym/Assets.xcassets/color.imageset/Contents.json
+NomadGym/Assets.xcassets/color2.imageset/color2.png
+NomadGym/Assets.xcassets/color2.imageset/Contents.json
+NomadGym/Assets.xcassets/lifter.imageset/Contents.json
+*.pbxproj
+NomadGym/Assets.xcassets/aesthetic.imageset/Contents.json
+NomadGym/Assets.xcassets/background.imageset/Contents.json
+*.json

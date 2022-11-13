@@ -12,65 +12,53 @@ struct WorkoutView: View {
     
     @State var modal: ModalType? = nil
     var body: some View {
-        ZStack {
-            ScrollView {
-                VStack {
-                    HeaderComponent(title:"Workout")
-                    NavigationView {
-                        List {
-                            ForEach(viewModel.workouts) {
-                                workout in
-                                Button {
-                                    print("selected")
-                                } label: {
-                                    Text(workout.title)
-                                        .font(.title3)
-                                        .foregroundColor(Color(.label))
-                                }
-                            }
-                        }
-                    }
-                    .navigationTitle(Text("Workouts"))
-                    .toolbar {
-                        Button {
-                            modal = .add
-                        } label: {
-                            Label("Add workout", systemImage: "plus.circle")
-                        }
-                    }
-                    
-                }
-                .sheet(item: $modal, onDismiss: {
-                    Task {
-                        do {
-                            try await viewModel.fetchWorkouts()
-                        } catch {
-                            print("Error: KRRR \(error)")
-                        }
-                    }
-                }) {
-                    modal in
-                    switch modal {
-                    case .add: AddUpdateWorkout(viewModel: AddUpdateWorkoutViewModel())
-                    case .update(let workout): AddUpdateWorkout(viewModel: AddUpdateWorkoutViewModel(currentWorkout: workout))
+        NavigationView {
+            List {
+                ForEach(viewModel.workouts) {
+                    workout in
+                    Button {
+                        modal = .update(workout)
+                    } label: {
+                        Text(workout.title)
+                            .font(.title3)
+                            .foregroundColor(Color(.label))
                     }
                 }
-                .onAppear {
-                    Task {
-                        do {
-                            try await viewModel.fetchWorkouts()
-                        }catch {
-                            print("ERROR: KRRR \(error)")
-                        }
-                        
-                    }
+            }
+            .navigationTitle(Text("Workouts"))
+            .toolbar {
+                Button {
+                    modal = .add
+                } label: {
+                    Label("Add Workout", systemImage: "plus.circle")
                 }
-                
-                
-                
             }
         }
-       
+        .sheet(item: $modal, onDismiss: {
+            Task {
+                do {
+                    try await viewModel.fetchWorkouts()
+                } catch {
+                    print("❌ Error: \(error)")
+                }
+            }
+        }) { modal in
+            switch modal {
+            case .add:
+                AddUpdateWorkout(viewModel: AddUpdateWorkoutViewModel())
+            case .update(let workout):
+                AddUpdateWorkout(viewModel: AddUpdateWorkoutViewModel(currentWorkout: workout))
+            }
+        }
+        .onAppear {
+            Task {
+                do {
+                    try await viewModel.fetchWorkouts()
+                } catch {
+                    print("❌ Error: \(error)")
+                }
+            }
+        }
         
     }
 }

@@ -44,7 +44,7 @@ final class AddUpdateWorkoutViewModel: ObservableObject {
         Task {
             do {
                 if isUpdating {
-                    
+                    try await updateWorkout()
                 } else {
                    try await addWorkout()
                 }
@@ -53,5 +53,14 @@ final class AddUpdateWorkoutViewModel: ObservableObject {
             }
            completion()
         }
+    }
+    
+    func updateWorkout() async throws {
+        let urlString = Constants.baseURL + Endpoints.workouts
+        guard let url = URL(string : urlString) else {
+            throw HttpError.badURL
+        }
+        let workoutToUpdate = Workout(id: workoutID, title: workoutTitle)
+        try await HttpClient.shared.sendData(to: url, object: workoutToUpdate, httpMethod: HttpMethods.PUT.rawValue)
     }
 }
