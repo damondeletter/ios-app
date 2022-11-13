@@ -35,9 +35,9 @@ final class AddUpdateWorkoutViewModel: ObservableObject {
             throw HttpError.badURL
         }
         
-        let workout = Workout(id: nil, title: workoutTitle)
+        //let workout = Workout(id: nil, title: workoutTitle)
         
-        try await HttpClient.shared.sendData(to: url, object: workout, httpMethod: HttpMethods.POST.rawValue)
+        //try await HttpClient.shared.sendData(to: url, object: workout, httpMethod: HttpMethods.POST.rawValue)
     }
     
     func addUpdateAction(completion: @escaping () -> Void) {
@@ -60,7 +60,7 @@ final class AddUpdateWorkoutViewModel: ObservableObject {
         guard let url = URL(string : urlString) else {
             throw HttpError.badURL
         }
-        let workoutToUpdate = Workout(id: workoutID, title: workoutTitle)
-        try await HttpClient.shared.sendData(to: url, object: workoutToUpdate, httpMethod: HttpMethods.PUT.rawValue)
+        //let workoutToUpdate = Workout(id: workoutID, title: workoutTitle)
+        //try await HttpClient.shared.sendData(to: url, object: workoutToUpdate, httpMethod: HttpMethods.PUT.rawValue)
     }
 }

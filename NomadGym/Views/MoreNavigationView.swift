@@ -13,7 +13,7 @@ struct MoreNavigationView: View {
             ScrollView {
                 VStack {
                     HeaderComponent(title: "More")
-                    Text("Test").frame(maxWidth:.infinity, alignment: .leading).padding(20)
+                    Text("All articles").frame(maxWidth:.infinity, alignment: .leading).padding(20)
                 }
             }
             
