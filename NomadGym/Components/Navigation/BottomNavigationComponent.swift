@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct BottomNavigationComponent: View {
-    let custom = Color.hexColour(hexValue: 0xf3f4fb)
     let textColor = Color.hexColour(hexValue: 0x19213F)
     var body: some View {
         TabView {
+            
             
             ExploreHomeView()
                 .tabItem() {
@@ -20,9 +20,7 @@ struct BottomNavigationComponent: View {
                     
                 }
                 .toolbar(.visible, for: .tabBar)
-                .toolbarBackground(
-                        custom,
-                        for: .tabBar)
+               
             
             WorkoutView()
                 .tabItem() {
@@ -30,18 +28,13 @@ struct BottomNavigationComponent: View {
                     Text("Workout").foregroundColor(textColor)
                 }
                 .toolbar(.visible, for: .tabBar)
-                .toolbarBackground(
-                        custom,
-                        for: .tabBar)
+           
             VideoFeedView()
                 .tabItem() {
                     Image(systemName: "play.circle")
                     Text("Video feed")
                 }
                 .toolbar(.visible, for: .tabBar)
-                .toolbarBackground(
-                        custom,
-                        for: .tabBar)
             
             MoreNavigationView()
                 .tabItem() {
@@ -49,12 +42,9 @@ struct BottomNavigationComponent: View {
                 Text("More")
             }
             .toolbar(.visible, for: .tabBar)
-            .toolbarBackground(
-                    custom,
-                    for: .tabBar)
         }
         
-        .accentColor(.hexColour(hexValue: 0x94CCFE))
+        .accentColor(.hexColour(hexValue: 0xffffff))
 
     }
 }

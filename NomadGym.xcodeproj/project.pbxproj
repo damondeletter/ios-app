@@ -36,6 +36,8 @@
 		82D81771291809B200DB52A6 /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D81770291809B200DB52A6 /* ModalType.swift */; };
 		82D8177329180A5F00DB52A6 /* AddUpdateWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8177229180A5F00DB52A6 /* AddUpdateWorkout.swift */; };
 		82D8177529180BC900DB52A6 /* AddUpdateWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8177429180BC900DB52A6 /* AddUpdateWorkoutViewModel.swift */; };
+		82E7B8C5292A5DDE00E97043 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7B8C4292A5DDE00E97043 /* User.swift */; };
+		82E7B8C7292A69B300E97043 /* InfoBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7B8C6292A69B300E97043 /* InfoBlock.swift */; };
 		82F981A229127E1300085D2A /* InfoSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F981A129127E1300085D2A /* InfoSegment.swift */; };
 		82F981A42912B45400085D2A /* InfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F981A32912B45300085D2A /* InfoItem.swift */; };
 		82F981A62912B4EA00085D2A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F981A52912B4EA00085D2A /* InfoView.swift */; };
@@ -72,6 +74,8 @@
 		82D81770291809B200DB52A6 /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
 		82D8177229180A5F00DB52A6 /* AddUpdateWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateWorkout.swift; sourceTree = "<group>"; };
 		82D8177429180BC900DB52A6 /* AddUpdateWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateWorkoutViewModel.swift; sourceTree = "<group>"; };
+		82E7B8C4292A5DDE00E97043 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		82E7B8C6292A69B300E97043 /* InfoBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBlock.swift; sourceTree = "<group>"; };
 		82F981A129127E1300085D2A /* InfoSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSegment.swift; sourceTree = "<group>"; };
 		82F981A32912B45300085D2A /* InfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoItem.swift; sourceTree = "<group>"; };
 		82F981A52912B4EA00085D2A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 			children = (
 				82D7058B29115F61009BAF91 /* Video.swift */,
 				82D817682917EA0300DB52A6 /* Workout.swift */,
+				82E7B8C4292A5DDE00E97043 /* User.swift */,
+				82E7B8C6292A69B300E97043 /* InfoBlock.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -312,6 +318,8 @@
 				82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */,
 				82AC1885290A5D18001811B6 /* Extensions.swift in Sources */,
 				826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */,
+				82E7B8C7292A69B300E97043 /* InfoBlock.swift in Sources */,
+				82E7B8C5292A5DDE00E97043 /* User.swift in Sources */,
 				82D817692917EA0300DB52A6 /* Workout.swift in Sources */,
 				82D70587291119F2009BAF91 /* BottomNavigationComponent.swift in Sources */,
 				82D81771291809B200DB52A6 /* ModalType.swift in Sources */,
@@ -464,6 +472,7 @@
 				DEVELOPMENT_TEAM = K3WQRH7ZG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -493,6 +502,7 @@
 				DEVELOPMENT_TEAM = K3WQRH7ZG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

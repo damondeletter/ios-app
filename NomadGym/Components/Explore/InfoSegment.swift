@@ -106,6 +106,8 @@ struct InfoSegment_Previews: PreviewProvider {
     }
 }
 
-/* The logic behind the popup screen is from a tutorial around transitions:
+/* This popup screen is based on a tutorial around transitions:
  https://www.youtube.com/watch?v=I9O1n4s96v4
+ 
+ I have added some small changes, made it work with models (reusability) and changed the animation a bit
  */

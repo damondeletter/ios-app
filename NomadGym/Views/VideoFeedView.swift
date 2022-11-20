@@ -10,8 +10,20 @@ import WebKit
 
 struct VideoFeedView: View {
     var body: some View {
-        HeaderComponent(title: "Video feed")
+        ZStack {
+            
+            
+            ScrollView {
+                HeaderComponent(title: "Video feed")
+                    
+                
+            }
+            
+        }
+        .background(LinearGradient(gradient: Gradient(colors: [.white,Color.hexColour(hexValue: 0xF3F4FA),Color.hexColour(hexValue: 0xbb94fe)]), startPoint: .top, endPoint: .bottom))
+      
     }
+    
 }
 
 

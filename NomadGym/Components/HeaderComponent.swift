@@ -48,6 +48,7 @@ struct Profile : View {
                     Circle()
                         .foregroundColor(colorCircle)
                         .frame(width: 80, height: 80)
+                        
                 )
         
         
