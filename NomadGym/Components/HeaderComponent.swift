@@ -26,7 +26,7 @@ struct HeaderComponent: View {
             }
             
         }
-        .frame(height: 70)
+        .frame(height: 60)
         .frame(maxHeight: .infinity, alignment: .top)
         
         

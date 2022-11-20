@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/*
 struct ExploreVerticalCard: View {
     var video : Video
     var body: some View {
@@ -41,6 +41,8 @@ struct ExploreVerticalCard: View {
 
 struct ExploreVerticalCard_Previews: PreviewProvider {
     static var previews: some View {
-        ExploreVerticalCard(video: videos[1])
+        ExploreVerticalCard()
     }
 }
+
+*/

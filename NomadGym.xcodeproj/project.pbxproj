@@ -17,6 +17,8 @@
 		8256071E29101069000098CA /* ExploreHorizontalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8256071D29101069000098CA /* ExploreHorizontalCard.swift */; };
 		826214A7290AD45000B67E90 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826214A6290AD45000B67E90 /* HeaderComponent.swift */; };
 		82650F55292133FD00C11C1C /* Profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82650F54292133FD00C11C1C /* Profile.jpeg */; };
+		82650F5929214F4200C11C1C /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82650F5829214F4200C11C1C /* VideoModel.swift */; };
+		82650F5C2921516000C11C1C /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82650F5B2921516000C11C1C /* VideoViewController.swift */; };
 		82AC1885290A5D18001811B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC1884290A5D18001811B6 /* Extensions.swift */; };
 		82AC4733290BC26200EEA69B /* MoreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AC4732290BC26200EEA69B /* MoreNavigationView.swift */; };
 		82C2668E29150C160096A278 /* MoreNavigationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C2668D29150C160096A278 /* MoreNavigationCard.swift */; };
@@ -51,6 +53,8 @@
 		8256071D29101069000098CA /* ExploreHorizontalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHorizontalCard.swift; sourceTree = "<group>"; };
 		826214A6290AD45000B67E90 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		82650F54292133FD00C11C1C /* Profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profile.jpeg; sourceTree = "<group>"; };
+		82650F5829214F4200C11C1C /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		82650F5B2921516000C11C1C /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		82AC1884290A5D18001811B6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		82AC4732290BC26200EEA69B /* MoreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNavigationView.swift; sourceTree = "<group>"; };
 		82C2668D29150C160096A278 /* MoreNavigationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNavigationCard.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 		82499122290929E000594FA3 /* NomadGym */ = {
 			isa = PBXGroup;
 			children = (
+				82650F5A2921514800C11C1C /* Controllers */,
 				8256071F29102537000098CA /* Models */,
 				8210316E29098A9000B56CE3 /* Views */,
 				82D817672917E9A200DB52A6 /* View Models */,
@@ -178,6 +183,14 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		82650F5A2921514800C11C1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82650F5B2921516000C11C1C /* VideoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		82AC1883290A5D01001811B6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +226,7 @@
 				82D8176A2917EA7900DB52A6 /* WorkoutListViewModel.swift */,
 				82D8176C2917ECC200DB52A6 /* HttpClient.swift */,
 				82D8177429180BC900DB52A6 /* AddUpdateWorkoutViewModel.swift */,
+				82650F5829214F4200C11C1C /* VideoModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -311,11 +325,13 @@
 				8210319029098C1000B56CE3 /* ExploreHomeView.swift in Sources */,
 				82D7058C29115F61009BAF91 /* Video.swift in Sources */,
 				82F981A42912B45400085D2A /* InfoItem.swift in Sources */,
+				82650F5C2921516000C11C1C /* VideoViewController.swift in Sources */,
 				82499124290929E000594FA3 /* NomadGymApp.swift in Sources */,
 				8210319429098E0000B56CE3 /* WorkoutView.swift in Sources */,
 				82D7058A29115F1F009BAF91 /* ExploreVerticalCard.swift in Sources */,
 				82C2668E29150C160096A278 /* MoreNavigationCard.swift in Sources */,
 				82D8177529180BC900DB52A6 /* AddUpdateWorkoutViewModel.swift in Sources */,
+				82650F5929214F4200C11C1C /* VideoModel.swift in Sources */,
 				82D8176B2917EA7900DB52A6 /* WorkoutListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

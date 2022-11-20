@@ -59,6 +59,13 @@ struct InfoView: View {
         }
     }
     
+    var infoCover : some View {
+        VStack {
+            Spacer()
+        }
+        
+    }
+    
 }
 
 struct InfoView_Previews: PreviewProvider {
