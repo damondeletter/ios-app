@@ -33,13 +33,16 @@ struct ExploreHomeView: View {
                     Text("Knowledge")
                         .frame(maxWidth: .greatestFiniteMagnitude, alignment: .leading).padding(.horizontal, 20).foregroundColor(Color.hexColour(hexValue: 0x19213F))
                         .fontWeight(.bold)
-                    InfoItem(namespace: namespace, show: $show)
-                        .onTapGesture {
-                            withAnimation(.spring(response: 0.6, dampingFraction: 0.8)) {
-                                show.toggle()
+                    
+                    ForEach(infoblocks, id: \.self) { infoblock in
+                        InfoItem(namespace: namespace, show: $show)
+                            .onTapGesture {
+                                withAnimation(.spring(response: 0.6, dampingFraction: 0.8)) {
+                                    show.toggle()
+                                }
+                                
                             }
-                            
-                        }
+                    }
                 }
             }
             .coordinateSpace(name: "scroll")
